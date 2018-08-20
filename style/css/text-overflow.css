@@ -1,0 +1,16 @@
+/* text in a line which overflow would fill with ellipsis */
+.text-overflow-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* text in multiple line which overflow would fill with ellipsis */
+.text-overflow-ellipsis-multiple {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+/* Please remember to set the width to restict the text !!! */

@@ -3,3 +3,7 @@
 ### Algorithm
 #### Sort
 [orderBy](./algorithm/sort/js/orderBy.js)
+
+### Style
+#### CSS
+[text-overflow-ellpsis](./style/css/text-overflow.css)
